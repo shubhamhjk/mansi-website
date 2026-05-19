@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Mansi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fcf4f6; 
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: #d1788e; 
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .profile-pic-container {
+            margin: 30px auto;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 6px solid #fff;
+            box-shadow: 0 10px 25px rgba(209, 120, 142, 0.2);
+            background-color: #f3e1e6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-pic-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+            z-index: 2;
+        }
+
+        .section-card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .section-card h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-card h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #f4cdd5;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        .section-card p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        .friend-section {
+            background: linear-gradient(135deg, #fff 0%, #fef9fa 100%);
+            border: 2px dashed #f4cdd5;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #a8a8a8;
+        }
+        
+        .heart {
+            color: #d1788e;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Mansi's World</h1>
+            <p>Welcome to a space dedicated to someone truly special.</p>
+            
+            <div class="profile-pic-container">
+                <!-- The image source is now set to mansi.jpg -->
+                <img src="mansi.jpg" alt="A beautiful picture of Mansi">
+            </div>
+        </header>
+
+        <div class="section-card">
+            <h2>Meet Mansi</h2>
+            <p>To know Mansi is to know a genuinely beautiful soul, both inside and out. She is the rare kind of person who effortlessly combines a brilliantly intelligent mind with the sweetest, most caring heart. Whether she is lighting up the room with her undeniable cuteness or going out of her way to be helpful to those around her, Mansi makes the world a brighter place just by being in it. She is thoughtful, incredibly smart, and carries a warmth that makes everyone feel instantly at home.</p>
+        </div>
+
+        <div class="section-card">
+            <h2>A Beautiful Blend</h2>
+            <p>Mansi is a beautiful blend of warmth, intelligence, and grace. With her endlessly caring nature, quick mind, and the sweetest personality, she leaves a little bit of magic wherever she goes. She isn't just cute; she's profoundly kind, always helpful, and wonderfully smart.</p>
+        </div>
+
+        <div class="section-card friend-section">
+            <h2>Her Pillar of Support: Kashish</h2>
+            <p>A space about Mansi wouldn't be complete without mentioning Kashish, her absolute best friend. Kashish is the one who spends the most time with her, constantly staying by her side through thick and thin. More than just a friend, Kashish steps up to play every role Mansi needs—whether it's a true best friend, a protective brother, or a constant pillar of support. Their beautiful bond and Kashish's unwavering loyalty make Mansi's world even more wonderful.</p>
+        </div>
+
+        <footer>
+            <p>Made with <span class="heart">♥</span> for Mansi</p>
+        </footer>
+    </div>
+
+</body>
+</html>
